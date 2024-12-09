@@ -1,7 +1,7 @@
 const pokemonImages = {
     Pikachu: "src/pikachu.png",
     Mewtwo: "src/mewtwo.png",
-    Charmander: "src/charizard.png"
+    Charizard: "src/charizard.png"
 };
 
 
