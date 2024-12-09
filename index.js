@@ -10,7 +10,7 @@ const directions = ["Izquierda", "Derecha"];
 function generarOpciones() {
     const pokemon = Object.keys(pokemonImages);
     const opcionPokemon = pokemon[Math.floor(Math.random() * pokemon.length)];
-    const numeroAleatorio = Math.floor(Math.random() * 20) + 1;
+    const numeroAleatorio = Math.floor(Math.random() * 15);
     const direccion = directions[Math.floor(Math.random() * directions.length)];
     return { opcionPokemon, numeroAleatorio, direccion };
 }
